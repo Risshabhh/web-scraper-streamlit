@@ -16,3 +16,4 @@ if st.button("Scrape"):
         f.write(report)
     st.success("Scraping completed! Download your report below.")
     st.download_button("📥 Download Report", report, file_name="report.txt")
+ 
