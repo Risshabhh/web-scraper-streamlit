@@ -9,10 +9,10 @@ url = st.text_input("Enter website URL:", "https://example.com")
 depth = st.slider("Depth to crawl (0 = only main page)", 0, 3, 1)
 
 if st.button("Scrape"):
-    st.write("⏳ Scraping in progress...")
+    st.write("Scraping in progress...")
     report = scrape_website(url, depth=depth)
     # Save to file
     with open("report.txt", "w", encoding="utf-8") as f:
         f.write(report)
-    st.success("✅ Scraping completed! Download your report below.")
+    st.success("Scraping completed! Download your report below.")
     st.download_button("📥 Download Report", report, file_name="report.txt")
