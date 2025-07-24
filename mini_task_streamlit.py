@@ -2,7 +2,7 @@
 import streamlit as st
 from scraper import scrape_website
 
-st.title("🌐 Web Scraper and Report Generator")
+st.title("Web Scraper and Report Generator")
 st.write("Enter a URL and choose a crawl depth to scrape internal pages and download a report.")
 
 url = st.text_input("Enter website URL:", "https://example.com")
