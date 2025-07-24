@@ -3,7 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin, urlparse
 
-visited = set()
+visited = set() 
 
 def is_valid(url, base_netloc):
     try:
