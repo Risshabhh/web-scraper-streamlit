@@ -9,7 +9,6 @@ Original file is located at
 3. Streamlit App (app.py)
 """
 
-!pip install streamlit
 
 import streamlit as st
 # from scraper import scrape_website # Removed this line
