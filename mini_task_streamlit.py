@@ -15,5 +15,5 @@ if st.button("Scrape"):
     with open("report.txt", "w", encoding="utf-8") as f:
         f.write(report)
     st.success("Scraping completed! Download your report below.")
-    st.download_button("📥 Download Report", report, file_name="report.txt")
+    st.download_button("Download Report", report, file_name="report.txt")
  
