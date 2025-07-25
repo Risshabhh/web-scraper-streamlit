@@ -42,5 +42,5 @@ Notes
 Please make sure you scrape only websites you are allowed to.
 Respect the site’s robots.txt and usage policies.
 For large or deep crawls, consider adding rate limits to avoid overloading a server.
-GitHub Repository: 
+GitHub Repository: https://github.com/Risshabhh/web-scraper-streamlit/tree/e0ea932fb423a50d941b1cff21e5df4766ebf731
 Live App on Streamlit: https://web-scraper-app-ca8vczgymqvglbpmmzh4xd.streamlit.app
